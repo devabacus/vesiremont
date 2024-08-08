@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.pyc
+test file.txt
+test file.txt.bak
+testforgit.py
+
+base_paths.py
+start_script.bat
+start_script.bat.bak
+start parsing.bat.bak
+output/
+core/os/consts/b_paths.py
+/env
+/env39
+test.py
+mtest.py
+update program.bat
+proxy_auth_plugin.zip
+settings.bak
+settings.dat
+settings.dir
+failed_urls_except.txt
+failed_urls.txt
+parsed_urls.txt
+start parsing.bat
+/manuals
