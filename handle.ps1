@@ -1,8 +1,9 @@
 python -m venv env
 .\env\Scripts\Activate.ps1
 pip install requests
+pip install selenium
 pip install beautifulsoup4
-pip install aiogram
+
 
 
 

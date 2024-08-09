@@ -24,4 +24,4 @@ failed_urls_except.txt
 failed_urls.txt
 parsed_urls.txt
 start parsing.bat
-/manuals
+/manuals/*/*

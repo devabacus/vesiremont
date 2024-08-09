@@ -7,10 +7,9 @@ bot = telebot.TeleBot(API_TOKEN)
 
 # Функция для отправки PDF файлов
 def send_pdfs():
-    pdf_folder = 'pdfs'  # Папка, где хранятся PDF файлы
-    for pdf_file in os.listdir(pdf_folder):
-        if pdf_file.endswith('.pdf'):
-            file_path = os.path.join(pdf_folder, pdf_file)
+    manual_folder = 'manuals/massa'  # Папка, где хранятся PDF файлы
+    for pdf_file in os.listdir(manual_folder):
+            file_path = os.path.join(manual_folder, pdf_file)
             try:
                 with open(file_path, 'rb') as file:
                     print(f"Отправка файла '{pdf_file}' в чат {CHAT_ID} с thread_id {THREAD_ID}")
